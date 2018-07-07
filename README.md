@@ -1,2 +1,2 @@
 # scss-helpers-sdk
-creation of standard atomic (helper) classes
+A set of standard scss and css helper classes
