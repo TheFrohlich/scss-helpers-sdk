@@ -1,0 +1,6 @@
+@import './variables.scss';
+@import './mixins/mixins.scss';
+
+#{$prefix}-align-items {
+    @include create-map-based-prop-modifiers(align-items, $alignItemsValueMap);
+}

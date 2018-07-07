@@ -1,0 +1,35 @@
+
+// globals
+$prefix:'.h';
+
+// order
+$minFlexOrderValue:-10;
+$maxFlexOrderValue:10;
+
+// align-items
+$alignItemsValueMap:( 
+    start:flex-start, 
+    end:flex-end, 
+    stretch:stretch, 
+    center:center, 
+    baseline:baseline) !default;
+     
+// align-content 
+$alignContentValueMap:( 
+    start:flex-start, 
+    end:flex-end, 
+    center:center, 
+    between:space-between, 
+    stretch:stretch, 
+    around:space-around, 
+    evenly:space-evenly, 
+    baseline:baseline) !default;
+
+// justify-content 
+$justifyContentValueMap: (
+    start:flex-start, 
+    center:center, 
+    end: flex-end, 
+    between:space-between,
+    evenly:space-between, 
+    around:space-around) !default;

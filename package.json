@@ -1,0 +1,30 @@
+{
+  "name": "scss-helpers-sdk",
+  "version": "0.0.1",
+  "description": "A set of standard scss and css helper classes",
+  "main": "index.scss",
+  "scripts": {
+    "start": "npm run build && node-sass-chokidar src/ -o dist/ --watch --recursive",
+    "build": "node-sass-chokidar src/ -o dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheFrohlich/scss-helpers-sdk.git"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "helpers",
+    "atomic-css"
+  ],
+  "author": "theFrohlich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheFrohlich/scss-helpers-sdk/issues"
+  },
+  "homepage": "https://github.com/TheFrohlich/scss-helpers-sdk#readme",
+  "devDependencies": {
+    "node-sass-chokidar": "^1.3.0"
+  }
+}

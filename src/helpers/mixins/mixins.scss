@@ -1,0 +1,9 @@
+
+
+@mixin create-map-based-prop-modifiers($prop,$map){
+    @each $key,$var in $map {
+        &--#{$key}{
+            #{$prop}:$var;
+        }
+    }
+}

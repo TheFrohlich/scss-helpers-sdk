@@ -1,0 +1,17 @@
+// $justifyMap:( 
+//     content: (start:flex-start, center:center, end: flex-end, between:space-between, evenly:space-between, around:space-around),
+//     items:(start:start,end:end,center:center,stretch:stretch));
+// .h-justify {
+//     @each $mainKey,$propMap in $justifyMap {
+//         &-#{$mainKey}{
+//             @each $key,$propValue in $propMap {
+//                 &--#{$key}{
+//                     justify-#{$mainKey}:$propValue;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+

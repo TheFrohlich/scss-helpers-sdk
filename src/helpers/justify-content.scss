@@ -1,0 +1,5 @@
+@import './variables.scss';
+@import './mixins/mixins.scss';
+#{$prefix}-justify-content {
+    @include create-map-based-prop-modifiers(justify-content, $justifyContentValueMap)
+}
