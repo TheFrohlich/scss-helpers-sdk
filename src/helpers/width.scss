@@ -1,0 +1,10 @@
+@import './_variables.scss';
+#{$prefix}-width{
+    $i:0;
+    @while $i <= 100 {
+        &--#{$i}\%{
+            width: ($i / 100) * 100%;
+        }
+        $i:$i+$widthInterval
+    }
+}

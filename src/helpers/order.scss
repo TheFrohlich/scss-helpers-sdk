@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import './_variables.scss';
 #{$prefix}-order {
     @for $i from $minFlexOrderValue through $maxFlexOrderValue {
         &--#{$i} {
