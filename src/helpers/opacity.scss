@@ -1,0 +1,11 @@
+@import './_variables.scss';
+$opacityInterval:25;
+#{$prefix}-opacity{
+    $i:0;
+    @while $i <= 100 {
+        &--#{$i}\%{
+            opacity: ($i / 100);
+        }
+        $i:$i+$opacityInterval
+    }
+}
